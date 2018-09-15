@@ -8,10 +8,9 @@
  define('DS', DIRECTORY_SEPARATOR);
  define('CORE',ROOT. DS.'core');
  define('BASE_URL',dirname(dirname($_SERVER['SCRIPT_NAME']))); // racine de mon site
-
  // on crée ensuite le dispatcher
 
-// je vais récupérer mon fichier pour tous les require
-require CORE.DS.'includes.php'; // interet des constantes = récupérer des fichiers rapidos
-new Dispatcher(); // je peux utiliser ici mon Dispatcher
+ //je vais récupérer mon fichier pour tous les require
+ require CORE.DS.'includes.php'; // interet des constantes = récupérer des fichiers rapidos
+ new Dispatcher(); // je peux utiliser ici mon Dispatcher
 ?>
